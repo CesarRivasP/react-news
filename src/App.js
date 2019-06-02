@@ -1,4 +1,5 @@
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
+import Header from './components/header';
 
 
 class App extends Component {
@@ -24,9 +25,13 @@ class App extends Component {
 
   render(){
     return (
-      <div className="App">
+      <Fragment>
+        <Header title="Noticias" />
 
-      </div>
+        <div className="container white news-container">
+
+        </div>
+      </Fragment>
     );
   }
 }
