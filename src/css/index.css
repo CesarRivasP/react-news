@@ -5,8 +5,13 @@ body {
 }
 
 body {
-  background-color: #039be5;
+  background-color: white;
 }
+
+.header-title {
+
+}
+
 .card-content h3 {
   font-size: 1.4rem;
 }
@@ -14,7 +19,7 @@ body {
   display: flex;
   flex-wrap: wrap;
 }
-.contenedor-noticias {
+.news-container {
   padding: 2rem;
   border-radius: 1rem;
   margin-top: 3rem;
