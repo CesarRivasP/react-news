@@ -1,11 +1,16 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
-const header = ({title}) => (
+const Header = ({title}) => (
   <nav>
     <div className="nav-wrapper white darken-3">
-      <a className="brand-logo center black-text header-title">{title}</a>
+      <a href="" className="brand-logo center black-text header-title">{title}</a>
     </div>
   </nav>
 )
 
-export default header;
+Header.propTypes = {
+  title: PropTypes.string.isRequired
+}
+
+export default Header;
