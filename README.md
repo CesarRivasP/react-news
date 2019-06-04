@@ -1,7 +1,7 @@
 # Noticias
 ![Captura de Noticias](.readme-static/capture.png)
 
-Aplicación desarrollada en ReactJS que se encarga de proveer las ultimas noticias de diferentes ámbitos gracias a la API de NewsAPI. Algunas de las features que tiene son:
+Aplicación desarrollada en ReactJS que se encarga de proveer las ultimas noticias de diferentes ámbitos gracias a la API de NewsAPI.
 
 
 ## Scripts
