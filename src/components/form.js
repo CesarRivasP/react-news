@@ -15,9 +15,7 @@ class Form extends Component {
       // pasarlo a la pagina principal para que haga la consulta
       this.props.consultNews(this.state.category)
     }
-  )
-
-  }
+  )}
 
   render(){
     return (
@@ -26,7 +24,7 @@ class Form extends Component {
           <form>
             <h2>Encuentra noticias por categoria</h2>
 
-            <div className="input-field col s12">
+            <div className="input-field col s12 m8 offset-m2">
               <select onChange={this.handleChangeCategory}>
                 <option value="general">General</option>
                 <option value="entertainment">Entertainment</option>
@@ -41,6 +39,10 @@ class Form extends Component {
       </div>
     );
   }
+}
+
+Form.propTypes = {
+  consultNews: PropTypes.func.isRequired
 }
 
 export default Form;
